@@ -343,3 +343,8 @@
                 gap: 20px;
             }
         }
+
+        img {
+            border-radius: 6;
+            text-align: center;
+        }
