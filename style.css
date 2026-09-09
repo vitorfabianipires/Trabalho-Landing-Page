@@ -349,7 +349,13 @@
             text-align: center;
         }
 
+        .garantia {
+            background-color: var(--text-gray);
+        }
+
         footer {
             text-align: center;
             padding-bottom: 2px;
         }
+
+        
