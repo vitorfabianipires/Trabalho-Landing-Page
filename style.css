@@ -352,6 +352,7 @@
         .garantia {
             background-color: var(--text-gray);
             border-radius: 6;
+            margin: 2px;
         }
 
         footer {
