@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <header>
+
+    <!-- Cabeçalho com links apontando para os IDs com '#' -->
+    <header class="header">
+            <a href="#" class="header__logo">SuaMarca</a>
+        <nav class="header__nav">
+            <a href="#beneficios" class="header__link">Benefícios</a>
+            <a href="#recursos" class="header__link">Recursos</a>
+            <a href="#contato" class="header__link">Contato</a>
+        </nav>
+    </header>
+
+    <header>
         <div class="logo">
             <div class="logo-box">S</div> THE SUNNY OF LIFE
         </div>
@@ -23,17 +34,10 @@
             <span class="badge-elite">● ELITE 2026</span>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
         </div>
-            <a href="#" class="header__logo">SuaMarca</a>
-        <nav class="header__nav">
-            <a href="#beneficios" class="header__link">Benefícios</a>
-            <a href="#recursos" class="header__link">Recursos</a>
-            <a href="#contato" class="header__link">Contato</a>
-        </nav>
+    </header>     
 
-     </header>
-    
      <!--Main Hero Section-->
-     <main class="hero">
+    <main class="hero">
         <div class="hero-cotent">
             <span class="tag-lancamento">Novo Lançamento! 🚀</span>
             <p class="club-title">Raio de Sol Futebol Clube</p>
@@ -41,7 +45,7 @@
             <h2 class="garantia">Garantir o meu</h2>
         </div>
     <img src="camisa_soccer.jpg" alt="Camisa Raio de sol" class="imagem_produto">
-     </main>
+    </main>
      <footer>
             © 2026 The Sunny of Life. Todos os direitos reservados. Raio de Sol Futebol Clube.
      </footer>
