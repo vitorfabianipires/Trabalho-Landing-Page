@@ -6,55 +6,74 @@
     <title>The Sunny of Life - Raio de Sol Futebol Clube</title>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Nome do Seu Produto — A Solução Perfeita">
-    <meta property="og:description" content="Aprenda, evolua e transforme sua rotina com o
-    nosso novo lançamento. Confira os benefícios!">
+    <meta property="og:description" content="Aprenda, evolua e transforme sua rotina com o nosso novo lançamento. Confira os benefícios!">
     <meta property="og:image" content="https://seu-site.vercel.app/assets/og-image.jpg">
     <meta property="og:url" content="https://seu-site.vercel.app">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Cabeçalho com links apontando para os IDs com '#' -->
+    <!-- Cabeçalho Único e Unificado -->
     <header class="header">
-            
-        <nav class="header__nav">
-            <a href="#beneficios" class="header__link">Benefícios</a>
-            <a href="#recursos" class="header__link">Recursos</a>
-            <a href="#contato" class="header__link">Contato</a>
-        </nav>
-    </header>
-
-    <header>
         <div class="logo">
             <a href="#" class="header__logo">SuaMarca</a>
-            <div class="logo-box">S</div> THE SUNNY OF LIFE
+            <div class="logo-box">S</div> 
+            THE SUNNY OF LIFE
         </div>
-        <nav>
-             <ul>
-                <li><a href="#" class="active">Uniforme Oficial</a></li>
-                <li><a href="#">Especificações</a></li>
-                <li><a href="#">Benefícios</a></li>
-                <li><a href="#">Sobre o Clube</a></li>
-             </ul>
+        
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#beneficios" class="header__link active">Benefícios</a></li>
+                <li><a href="#recursos" class="header__link">Recursos</a></li>
+                <li><a href="#contato" class="header__link">Contato</a></li>
+            </ul>
         </nav>
+
         <div class="header-actions">
             <span class="badge-elite">● ELITE 2026</span>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
         </div>
     </header>     
 
-     <!--Main Hero Section-->
-    <main class="hero">
-        <div class="hero-cotent">
-            <span class="tag-lancamento">Novo Lançamento! 🚀</span>
-            <p class="club-title">Raio de Sol Futebol Clube</p>
-            <h1 class="hero-title">Essa camisa fará você se sentir como um <br>Raio Alaranjado</h1>
-            <h2 class="garantia">Garantir o meu</h2>
-        </div>
-    <img src="camisa_soccer.jpg" alt="Camisa Raio de sol" class="imagem_produto">
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Main Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="tag-lancamento">Novo Lançamento! 🚀</span>
+                <p class="club-title">Raio de Sol Futebol Clube</p>
+                <h1 class="hero-title">Essa camisa fará você se sentir como um <br>Raio Alaranjado</h1>
+                <h2 class="garantia">Garantir o meu</h2>
+            </div>
+            <img src="camisa_soccer.jpg" alt="Camisa Raio de sol" class="imagem_produto">
+        </section>
+
+        <!-- Seção de Benefícios -->
+        <section id="beneficios" class="beneficios">
+            <h2>Benefícios</h2>
+            <!-- Conteúdo dos cards aqui -->
+        </section>
+
+        <!-- Seção de Recursos -->
+        <section id="recursos" class="recursos">
+            <h2>Recursos</h2>
+            <!-- Conteúdo das especificações/recursos aqui -->
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <!-- Formulário ou informações de contato aqui -->
+        </section>
     </main>
-     <footer>
-            © 2026 The Sunny of Life. Todos os direitos reservados. Raio de Sol Futebol Clube.
-     </footer>
+
+    <!-- Rodapé -->
+    <footer>
+        © 2026 The Sunny of Life. Todos os direitos reservados. Raio de Sol Futebol Clube.
+    </footer>
 </body>
 </html>
