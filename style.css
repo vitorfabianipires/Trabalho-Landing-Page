@@ -82,6 +82,7 @@
             align-items: center;
             padding: 60px 8%;
             gap: 50px;
+            background: linear-gradient(to right #b4b4b3 #cfcfcf);
         }
 
         .hero-content {
