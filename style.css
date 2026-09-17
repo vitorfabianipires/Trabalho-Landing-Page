@@ -90,8 +90,7 @@
         }
 
         .tag-lancamento {
-            /*color: var(--primary-orange);*/
-            background: radial-gradient(right #ffffff #7a7a7a);
+            color: var(--primary-orange);
             font-size: 0.8rem;
             font-weight: bold;
             text-transform: uppercase;
