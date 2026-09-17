@@ -77,7 +77,6 @@
 
         /* Main Hero Section */
         .hero {
-            background: linear-gradient(to bottom, #0b0c10 #515a88);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -113,6 +112,10 @@
             font-weight: 800;
             line-height: 1.2;
             margin-bottom: 30px;
+
+            background: linear-gradient(to right, #ff4500, #ff8c00);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
         }
 
         .hero-title span {
