@@ -353,7 +353,7 @@
         .garantia {
             background-color: var(--text-gray);
             border-radius: 15;
-            margin: 2px;
+            text-decoration: none;
         }
 
         footer {
