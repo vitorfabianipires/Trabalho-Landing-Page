@@ -77,7 +77,7 @@
 
         /* Main Hero Section */
         .hero {
-            background: linear-gradient(to bottom, #0b0c10 #282c3f);
+            background: linear-gradient(to bottom, #0b0c10 #515a88);
             display: flex;
             justify-content: space-between;
             align-items: center;
