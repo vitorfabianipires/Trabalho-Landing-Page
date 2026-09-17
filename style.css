@@ -17,7 +17,7 @@
         body {
             color: var(--text-white);
             line-height: 1.6;
-            background: linear-gradient(to right #08090c #2d323f)
+            background-color: var(--bg-color);
         }
 
         /* Header */
