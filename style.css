@@ -15,9 +15,9 @@
         }
 
         body {
-            background-color: var(--bg-color);
             color: var(--text-white);
             line-height: 1.6;
+            background: linear-gradient(to right #08090c #2d323f)
         }
 
         /* Header */
@@ -348,7 +348,6 @@
         .imagem_produto {
             border-radius: 10;
             text-align: center;
-            padding-left: 30px;
         }
 
         .garantia {
