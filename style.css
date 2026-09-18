@@ -384,6 +384,11 @@
             background-color: #fffbf7; /* Muda o fundo sutilmente */
         }
 
+        .garantia:active {
+            transform: translateY(0); /* Volta para a posição original ao clique */
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+        }
+
         footer {
             text-align: center;
             padding-bottom: 2px;
