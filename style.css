@@ -90,7 +90,7 @@
         }
 
         .tag-lancamento {
-            /*color: var(--primary-orange);*/
+            /*color: var(--primary-orange);
             background: linear-gradient(to right, #ff4500, #ff8c00);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
@@ -100,7 +100,20 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             margin-bottom: 10px;
-            display: block;
+            display: block;*/
+
+            display: inline-block; /* Garante o comportamento correto de espaçamento */
+            background-color: rgba(255, 255, 255, 0.15); /* Fundo semi-transparente elegante */
+            color: #ffffff;
+            padding: 6px 16px;
+            border-radius: 50px; /* Bordas totalmente arredondadas */
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase; /* Deixa o texto em caixa alta e imponente */
+            backdrop-filter: blur(8px); /* Efeito de vidro fosco moderno */
+            border: 1px solid rgba(255, 255, 255, 0.25); /* Borda sutil de brilho */
+            margin-bottom: 5px;
         }
 
         .club-title {
