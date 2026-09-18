@@ -373,7 +373,7 @@
 
         .garantia {
             background-color: var(--text-gray);
-            color: white;
+            color: gray;
             border-radius: 15;
             text-decoration: none;
         }
