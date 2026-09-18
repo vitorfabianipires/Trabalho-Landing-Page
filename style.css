@@ -77,11 +77,19 @@
 
         /* Main Hero Section */
         .hero {
-            display: flex;
+            /*display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 60px 8%;
-            gap: 50px;
+            gap: 50px;*/
+
+             background: linear-gradient(135deg, #e64a19, #ff9800);
+             padding: 80px 12%; /* Aumentamos o recuo nas laterais para empurrar os elementos para o centro */
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Altera de 'space-between' para 'center' para aproximar os dois blocos */
+            gap: 80px; /* Controla exatamente a distância entre o texto e a imagem */
+            min-height: 80vh
         }
 
         .hero-content {
