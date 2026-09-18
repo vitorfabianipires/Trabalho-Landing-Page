@@ -83,8 +83,8 @@
             padding: 60px 8%;
             gap: 50px;*/
 
-             background: linear-gradient(135deg, #e64a19, #ff9800);
-             padding: 80px 12%; /* Aumentamos o recuo nas laterais para empurrar os elementos para o centro */
+            background: linear-gradient(135deg, #e64a19, #ff9800);
+            padding: 80px 12%; /* Aumentamos o recuo nas laterais para empurrar os elementos para o centro */
             display: flex;
             align-items: center;
             justify-content: center; /* Altera de 'space-between' para 'center' para aproximar os dois blocos */
