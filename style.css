@@ -388,8 +388,8 @@
         }
 
         .garantia {
-            background-color: var(--text-gray);
-            color: rgb(172, 172, 172);
+            background-color: #a0a5b5;
+            color: gray;
             border-radius: 15;
             text-decoration: none;
         }
