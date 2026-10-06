@@ -27,7 +27,13 @@
             align-items: center;
             padding: 20px 8%;
             border-bottom: 1px solid #1f2330;
+
+            position: sticky;
+            top: 0;
+            z-index: 1000; /* Garante que o menu fique por cima de imagens e textos */
+            background-color: var(--bg-color); /* Evita que o fundo fique transparente ao rolar */
         }
+        
 
         .logo {
             display: flex;
