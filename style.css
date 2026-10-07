@@ -403,6 +403,7 @@
             /*border-radius: 10;
             text-align: center;*/
 
+            width: 100%;
             max-width: 550px; /* Reduzido levemente para encaixar melhor ao lado do texto */
             height: auto;
             object-fit: contain;
