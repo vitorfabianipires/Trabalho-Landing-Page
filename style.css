@@ -112,16 +112,17 @@
             flex-direction: column;
             align-items: flex-end; /* Centraliza a imagem e o preço horizontalmente */
             gap: 20px; /* Controla o espaço entre a imagem e o preço */
+            width: 100%;
         }
 
         .price-value-hero {
             color: var(--accent-yellow); 
             font-size: 2.5rem; /* 💡 Aumentado de 1.8rem para 2.8rem (mude para 3.5rem se quiser ainda maior) */
-            font-weight: 650;  /* Deixa a fonte ligeiramente mais grossa e imponente */
+            font-weight: 800;  /* Deixa a fonte ligeiramente mais grossa e imponente */
+        
+            width: 100%;
+            max-width: 550px;
             text-align: right;
-            padding-right: 20px;
-            letter-spacing: 1px; /* Espaçamento sutil entre os números */
-            margin-top: 5px;   /* Pequeno ajuste de distância da imagem */
         }
 
         .tag-lancamento {
@@ -406,10 +407,9 @@
             text-align: center;*/
 
             width: 100%;
-            max-width: 550px; /* Reduzido levemente para encaixar melhor ao lado do texto */
+            max-width: 550px; 
             height: auto;
             object-fit: contain;
-            align-self: center;
             filter: drop-shadow(0px 20px 30px rgba(0, 0, 0, 0.7));
         }
 
