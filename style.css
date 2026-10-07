@@ -115,11 +115,12 @@
         }
 
         .price-value-hero {
-            background-color: #404863;
-            color: white; /* Usa o amarelo/laranja que você já tem no tema */
-            font-size: 2rem;
-            font-weight: bold;
+            color: var(--accent-yellow); 
+            font-size: 2.8rem; /* 💡 Aumentado de 1.8rem para 2.8rem (mude para 3.5rem se quiser ainda maior) */
+            font-weight: 800;  /* Deixa a fonte ligeiramente mais grossa e imponente */
             text-align: center;
+            letter-spacing: 1px; /* Espaçamento sutil entre os números */
+            margin-top: 5px;   /* Pequeno ajuste de distância da imagem */
         }
 
         .tag-lancamento {
