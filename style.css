@@ -107,10 +107,11 @@
         }
 
         .hero-image-container {
+            flex: 1.3;
             display: flex;
             flex-direction: column;
             align-items: center; /* Centraliza a imagem e o preço horizontalmente */
-            gap: 15px; /* Controla o espaço entre a imagem e o preço */
+            gap: 20px; /* Controla o espaço entre a imagem e o preço */
         }
 
         .price-value-hero {
