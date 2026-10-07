@@ -118,10 +118,10 @@
             color: var(--accent-yellow); 
             font-size: 2.5rem; /* 💡 Aumentado de 1.8rem para 2.8rem (mude para 3.5rem se quiser ainda maior) */
             font-weight: 650;  /* Deixa a fonte ligeiramente mais grossa e imponente */
-            text-align: left;
-            padding-left: 20px;
+            text-align: right;
+            padding-right: 20px;
             letter-spacing: 1px; /* Espaçamento sutil entre os números */
-        
+            margin-top: 5px;   /* Pequeno ajuste de distância da imagem */
         }
 
         .tag-lancamento {
