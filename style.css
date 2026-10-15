@@ -445,6 +445,23 @@
             background-color: var(--bg-main, #0f172a);
         }
 
+        .beneficios__header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .beneficios__title {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--color-text, #f8fafc);
+            margin-bottom: 12px;
+        }
+
+        .beneficios__subtitle {
+            color: var(--color-text-muted, #94a3b8);
+            font-size: 1.1rem;
+        }
+
         .desconto {
             font-weight: 600;
         }
