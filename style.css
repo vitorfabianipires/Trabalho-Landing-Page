@@ -434,6 +434,12 @@
             box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
         }
 
+        html {
+            scroll-behavior: smooth;
+            /* Evita que o cabeçalho fixo tape o topo da seção ao rolar */
+            scroll-padding-top: 90px;
+        }
+
         footer {
             text-align: justify;
             padding-bottom: 2px;
