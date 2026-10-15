@@ -22,16 +22,19 @@
 
         /* Header */
         header {
+            position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar */
+            top: 0;
+            z-index: 1000; /* Garante que o menu fique por cima de tudo */
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 8%;
-            border-bottom: 1px solid #1f2330;
-
-            position: sticky;
-            top: 0;
-            z-index: 1000; /* Garante que o menu fique por cima de imagens e textos */
-            background-color: var(--bg-color); /* Evita que o fundo fique transparente ao rolar */
+            padding: 16px 8%;
+            /* Efeito de Vidro: Fundo semi-transparente + Desfoque */
+            background: rgba(15, 23, 42, 0.75); /* Cor escura com 75% de opacidade */
+            backdrop-filter: blur(12px); /* Desfoca o conteúdo que passa por trás */
+            -webkit-backdrop-filter: blur(12px); /* Suporte para navegadores Safari */
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil de vidro */
+}
         }
         
 
