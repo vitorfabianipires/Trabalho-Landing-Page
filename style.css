@@ -463,7 +463,8 @@
         .beneficios__title {
             font-size: 2.25rem;
             font-weight: 700;
-            color: var(--color-text, #f8fafc);
+            /*color: var(--color-text, #f8fafc);*/
+            background: linear-gradient( #fc5214, #ff672f);
             margin-bottom: 12px;
         }
 
