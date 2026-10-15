@@ -128,6 +128,10 @@
             max-width: 550px;
             text-align: right;
         }
+        
+        .tag {
+            color: #ff8c00;
+        }
 
         .tag-lancamento {
             /*color: var(--primary-orange);
