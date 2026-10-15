@@ -464,7 +464,11 @@
             font-size: 2.25rem;
             font-weight: 700;
             /*color: var(--color-text, #f8fafc);*/
-            background: linear-gradient( #fc5214, #ff672f);
+            background-image: linear-gradient(left, #ff007f, #7928ca);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            display: inline-block;
             margin-bottom: 12px;
         }
 
