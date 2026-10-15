@@ -440,10 +440,12 @@
         }
 
         .beneficios {
-            background-color: #2d323f;
-
+            /*background-color: #2d323f;*/
+            padding: 80px 8%;
+            background-color: var(--bg-main, #0f172a);
         }
 
         .desconto {
             font-weight: 600;
         }
+
