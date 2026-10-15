@@ -34,8 +34,8 @@
             backdrop-filter: blur(12px); /* Desfoca o conteúdo que passa por trás */
             -webkit-backdrop-filter: blur(12px); /* Suporte para navegadores Safari */
             border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil de vidro */
-}
         }
+        
         
 
         .logo {
