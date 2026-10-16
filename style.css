@@ -21,7 +21,7 @@
         }
 
         /* Header */
-        header {
+        .header {
             position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar */
             top: 0;
             z-index: 1000; /* Garante que o menu fique por cima de tudo */
@@ -35,8 +35,6 @@
             -webkit-backdrop-filter: blur(12px); /* Suporte para navegadores Safari */
             border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil de vidro */
         }
-        
-        
 
         .logo {
             display: flex;
