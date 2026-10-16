@@ -145,6 +145,10 @@
             width: 100%;
         }
 
+        .hero_description {
+            padding-bottom: 10px;
+        }
+
         .price-value-hero {
             color: var(--accent-yellow); 
             font-size: 2.5rem; /* 💡 Aumentado de 1.8rem para 2.8rem (mude para 3.5rem se quiser ainda maior) */
