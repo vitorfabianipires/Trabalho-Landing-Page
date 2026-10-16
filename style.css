@@ -206,10 +206,6 @@
                 -webkit-text-fill-color: transparent;
         }
 
-        .hero-title span {
-            color: var(--primary-orange);
-            size: 1.5rem;
-        }
 
         .price-box {
             background-color: var(--card-bg);
