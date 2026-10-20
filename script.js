@@ -19,3 +19,10 @@ formNewsletter.addEventListener('submit', function(event) {
         console.log(`E-mail cadastrado com sucesso: ${emailDigitado}`);
     }
 });
+
+if (menuToggle && headerNav) {
+    menuToggle.addEventListener('click', function() {
+        // Alterna a classe que exibe/oculta o menu no CSS
+        headerNav.classList.toggle('header__nav--active');
+    });
+}
