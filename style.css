@@ -377,7 +377,8 @@
 
         .preço_camisa {
             color: #ff7b00;
-            font-weight: 300;
+            font-weight: 500;
+            font-size: large;
         }
 
         /* Product Image Display */
