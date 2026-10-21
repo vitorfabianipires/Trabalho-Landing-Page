@@ -609,3 +609,8 @@
             font-weight: 600;
         }
 
+        /*Cards*/
+
+        .card__title{
+            color: white;
+        }
