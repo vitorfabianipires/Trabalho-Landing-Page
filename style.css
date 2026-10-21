@@ -186,7 +186,12 @@
 
         .hero__description {
             padding-bottom: 12px;
-            color: white;
+            color: var(--color-text);
+        }
+
+        .hero__description span {
+            padding-bottom: 12px;
+            color: var(--color-primary);
         }
 
         .hero__figure {
