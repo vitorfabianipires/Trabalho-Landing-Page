@@ -177,7 +177,7 @@
 
         .hero__description {
             padding-bottom: 12px;
-            color: (var(--color-text));
+            color: white;
         }
 
         .hero__figure {
