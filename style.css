@@ -42,6 +42,10 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil de vidro */
         }
 
+        .title-site {
+            color: (var(--color-text));
+        }
+
         .header__logo {
             font-size: 1.5rem;
             font-weight: 800;
