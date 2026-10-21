@@ -626,7 +626,7 @@
         }
 
         .card__title span {
-            color: var(--color-primary)
+            color: var(--color-text)
         }
 
         .card__description {
@@ -634,5 +634,5 @@
         }
 
         .card__description {
-            color: var(--color-primary)
+            color: var(--color-text)
         }
