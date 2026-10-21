@@ -622,9 +622,9 @@
         /*Cards*/
 
         .card__title{
-            color: white;
+            color: var(--color-text);
         }
 
         .card__description {
-            
+            color: var(--color-text);
         }
