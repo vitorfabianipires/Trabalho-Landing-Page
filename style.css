@@ -1,11 +1,13 @@
-:root {
-            --bg-color: #0b0c10;
-            --card-bg: #13151c;
-            --primary-orange: #ff5722;
-            --text-white: #ffffff;
-            --text-gray: #a0a5b5;
-            --accent-yellow: #ffb74d;
-        }
+    :root {
+        --bg-color: #0b0c10;
+        --bg-card: #13151c;
+        --color-primary: #ff5722;
+        --color-text: #ffffff;
+        --color-text-muted: #a0a5b5;
+        --color-border: rgba(255, 255, 255, 0.1);
+        --transition: all 0.3s ease;
+    }
+
 
         * {
             margin: 0;
