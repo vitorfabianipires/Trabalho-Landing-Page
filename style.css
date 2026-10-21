@@ -511,6 +511,14 @@
             font-size: 0.85rem;
         }
 
+        .footer__text {
+            color: var(--color-text);
+        }
+
+        .footer__text span {
+            color: var(--color-primary);
+        }
+
         .footer-links {
             display: flex;
             gap: 20px;
