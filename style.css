@@ -137,7 +137,7 @@
         }
 
         .badge-elite {
-            color: var(--accent-yellow);
+            color: var(--color-primary);
             font-size: 0.8rem;
             font-weight: bold;
         }
