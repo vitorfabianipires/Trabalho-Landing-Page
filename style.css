@@ -173,6 +173,7 @@
 
         .hero_description {
             padding-bottom: 12px;
+            color: (--color-text);
         }
 
         .hero__figure {
