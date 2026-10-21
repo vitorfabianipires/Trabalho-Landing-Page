@@ -42,7 +42,11 @@
         }
 
         .title-site {
-            color: (var(--color-text));
+            color: var(--color-text);
+        }
+
+        .title-site span {
+            color: var(--color-primary);
         }
 
         .header__logo {
