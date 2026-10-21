@@ -1,12 +1,15 @@
     :root {
+        /* Tema Escuro (Padrão) */
         --bg-color: #0b0c10;
         --bg-card: #13151c;
-        --color-primary: #ff5722;
-        --color-text: #ffffff;
-        --color-text-muted: #a0a5b5;
+        --bg-glass: rgba(15, 23, 42, 0.75);
+        --color-primary: #ff5722;      /* Laranja Raio de Sol */
+        --color-accent: #ffb74d;       /* Dourado */
+        --color-text: #ffffff;         /* Texto Branco */
+        --color-text-muted: #a0a5b5;   /* Texto Cinza */
         --color-border: rgba(255, 255, 255, 0.1);
         --transition: all 0.3s ease;
-    }
+        }
 
 
         * {
