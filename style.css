@@ -349,30 +349,35 @@
         }
 
         .btn--sm {
-        padding: 8px 16px;
-        font-size: 0.875rem;
+            padding: 8px 16px;
+            font-size: 0.875rem;
         }
         .btn--lg {
-        padding: 14px 28px;
-        font-size: 1rem;
+            padding: 14px 28px;
+            font-size: 1rem;
         }
         .btn--primary {
-        background-color: var(--color-primary);
-        color: #ffffff;
+            background-color: var(--color-primary);
+            color: #ffffff;
         }
         .btn--primary:hover {
-        background-color: var(--color-primary-hover);
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3); 
+            background-color: var(--color-primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3); 
         }
         .btn--outline {
-        background-color: transparent;
-        color: var(--color-text);
-        border: 1px solid var(--color-border);
+            background-color: transparent;
+            color: var(--color-text);
+            border: 1px solid var(--color-border);
         }
         .btn--outline:hover {
-        border-color: var(--color-primary);
-        background-color: rgba(99, 102, 241, 0.1);
+            border-color: var(--color-primary);
+            background-color: rgba(99, 102, 241, 0.1);
+        }
+
+        .preço_camisa {
+            color: #ff7b00;
+            font-weight: 300;
         }
 
         /* Product Image Display */
