@@ -46,9 +46,9 @@
         }
 
         .header__logo {
-            font-size: 1.5rem;
+           font-size: 1.5rem;
             font-weight: 800;
-            color: var(--color-text);
+            color: var(--color-text); /* Corrigido para usar a variável dinâmica */
             text-decoration: none;
         }
 
