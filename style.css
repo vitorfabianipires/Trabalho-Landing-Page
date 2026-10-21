@@ -42,7 +42,7 @@
         }
 
         .title-site {
-            color: (--color-text);
+            color: (var(--color-text));
         }
 
         .header__logo {
