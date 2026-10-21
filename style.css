@@ -625,6 +625,14 @@
             color: var(--color-text);
         }
 
+        .card__title span {
+            color: var(--color-primary)
+        }
+
         .card__description {
             color: var(--color-text);
+        }
+
+        .card__description {
+            color: var(--color-primary)
         }
