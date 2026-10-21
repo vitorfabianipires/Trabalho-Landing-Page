@@ -100,7 +100,7 @@
         }
 
         .logo-box {
-            background-color: var(--primary-orange);
+            background-color: var(--color-primary);
             color: white;
             padding: 5px 10px;
             border-radius: 5px;
