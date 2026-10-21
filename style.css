@@ -27,19 +27,18 @@
 
         /* Header */
         .header {
-            position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar */
+              position: sticky; 
             top: 0;
-            z-index: 1000; /* Garante que o menu fique por cima de tudo */
+            z-index: 1000; 
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 16px 8%;
-            color: (var(--color-text));
-            /* Efeito de Vidro: Fundo semi-transparente + Desfoque */
-            background: rgba(15, 23, 42, 0.75); /* Cor escura com 75% de opacidade */
-            backdrop-filter: blur(12px); /* Desfoca o conteúdo que passa por trás */
-            -webkit-backdrop-filter: blur(12px); /* Suporte para navegadores Safari */
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borda sutil de vidro */
+            background: var(--bg-glass);
+            backdrop-filter: blur(12px); 
+            -webkit-backdrop-filter: blur(12px); 
+            border-bottom: 1px solid var(--color-border);
+            transition: background var(--transition), border var(--transition);
         }
 
         .title-site {
