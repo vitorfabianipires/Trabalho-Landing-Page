@@ -78,7 +78,7 @@
         body.light-theme {
             /* Tema Claro */
             --bg-color: #f8fafc;
-            --bg-card: #ffffff;
+            --bg-card: #c7b9b9;
             --bg-glass: rgba(255, 255, 255, 0.85);
             --color-text: #0f172a;         /* Texto Escuro */
             --color-text-muted: #475569;   /* Texto Cinza Escuro */
