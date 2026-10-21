@@ -175,7 +175,7 @@
             width: 100%;
         }
 
-        .hero_description {
+        .hero__description {
             padding-bottom: 12px;
             color: (--color-text);
         }
