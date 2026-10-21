@@ -77,13 +77,15 @@
     }
 
         body.light-theme {
-        --bg-main: #f8fafc;
-         --bg-card: #ffffff;
-         --bg-glass: rgba(255, 255, 255, 0.85);
-        --color-text: #0f172a;
-        --color-text-muted: #475569;
-        --color-border: #e2e8f0;
-}
+            /* Tema Claro */
+            --bg-color: #f8fafc;
+            --bg-card: #ffffff;
+            --bg-glass: rgba(255, 255, 255, 0.85);
+            --color-text: #0f172a;         /* Texto Escuro */
+            --color-text-muted: #475569;   /* Texto Cinza Escuro */
+            --color-border: #e2e8f0;
+    }
+
 
         .header__link {
             color: var(--color-text-muted);
