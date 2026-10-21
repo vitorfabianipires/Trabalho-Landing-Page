@@ -31,6 +31,7 @@
             justify-content: space-between;
             align-items: center;
             padding: 16px 8%;
+            color: (var(--color-text));
             /* Efeito de Vidro: Fundo semi-transparente + Desfoque */
             background: rgba(15, 23, 42, 0.75); /* Cor escura com 75% de opacidade */
             backdrop-filter: blur(12px); /* Desfoca o conteúdo que passa por trás */
