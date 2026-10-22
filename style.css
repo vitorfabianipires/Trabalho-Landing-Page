@@ -597,6 +597,10 @@
             background-color: var(--bg-main, #0f172a);
         }
 
+        .beneficios span {
+            color: var(--bg-card);
+        }
+
         .beneficios__header {
             text-align: center;
             margin-bottom: 48px;
