@@ -652,18 +652,10 @@
 
         /*Cards*/
 
-        .card__title{
+        .card {
             color: var(--color-text);
         }
 
-        .card__title span {
-            color: var(--color-primary)
-        }
-
-        .card__description {
-            color: var(--color-text);
-        }
-
-        .card__description span {
-            color: var(--color-primary)
+        .card span {
+            color: var(--color-primary);
         }
