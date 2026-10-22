@@ -604,7 +604,7 @@
 
 /* Altera o fundo dos cards e coloca os textos em preto/escuro */
         body.light-theme .beneficios {
-            background-color: #d9dbdd; /* Fundo da seção */
+            background-color: #0f172a; /* Fundo da seção */
         }
 
         body.light-theme .card {
