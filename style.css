@@ -626,6 +626,14 @@
             color: var(--color-primary)
         }
 
+        .section-subtitle {
+            color: var(--color-text);
+        }
+
+        .section-subtitle span {
+            color: var(--color-primary);
+        }
+
         .desconto {
             font-weight: 600;
         }
