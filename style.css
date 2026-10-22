@@ -591,6 +591,46 @@
         }
 
         /*Benefícios*/
+
+        /* ==========================================================================
+        Ajustes para o Tema Claro (Garante texto escuro na seção de Benefícios)
+         ========================================================================== */
+
+    /* Quando a classe 'light-theme' for aplicada ao body pelo JavaScript */
+        body.light-theme {
+            background-color: #d9dbdd;
+            color: #0f172a;
+        }
+
+/* Altera o fundo dos cards e coloca os textos em preto/escuro */
+        body.light-theme .beneficios {
+            background-color: #d9dbdd; /* Fundo da seção */
+        }
+
+        body.light-theme .card {
+            background-color: #c7b9b9; /* Cor de fundo do card no tema claro */
+            border-color: rgba(0, 0, 0, 0.15); /* Borda sutil escura */
+        }
+
+/* Força os títulos e descrições dos cards a ficarem pretos */
+        body.light-theme .card__title {
+            color: #0f172a !important; /* Cor preta/escura para Máximo Conforto, etc. */
+        }
+
+        body.light-theme .card__description {
+            color: #334155 !important; /* Cinza escuro para melhor leitura da descrição */
+        }
+
+/* Ajuste opcional para os títulos principais da seção no tema claro */
+        body.light-theme .beneficios__title {
+            color: #0f172a;
+        }
+
+        body.light-theme .beneficios__subtitle {
+            color: #475569;
+        }
+
+
         .beneficios {
             /*background-color: #2d323f;*/
             padding: 80px 8%;
@@ -650,10 +690,3 @@
             font-weight: 600;
         }
 
-        /*Cards*/
-
-        .card {
-            color: var(--color-text);
-        }
-
-      
