@@ -664,6 +664,6 @@
             color: var(--color-text);
         }
 
-        .card__description {
+        .card__description span {
             color: var(--color-text)
         }
