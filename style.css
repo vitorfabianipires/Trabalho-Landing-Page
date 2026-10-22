@@ -634,6 +634,14 @@
             color: var(--color-primary);
         }
 
+        .sr-only {
+            color: var(--color-text);
+        }
+
+        .sr-only span {
+            color: var(--color-primary);
+        }
+
         .desconto {
             font-weight: 600;
         }
