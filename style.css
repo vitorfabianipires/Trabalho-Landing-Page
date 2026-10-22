@@ -695,3 +695,45 @@
             font-weight: 600;
         }
 
+        /*Cards*/
+        /* ==========================================================================
+   ESTILOS DOS CARDS (Padrão: Tema Escuro)
+   ========================================================================== */
+.card {
+    background-color: #13151c; /* Cor de fundo do card escuro */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+/* Garante que os textos fiquem brancos por padrão (Tema Escuro) */
+.card__title {
+    color: #ffffff !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card__description {
+    color: #a0a5b5 !important; /* Texto cinza claro/branco para leitura confortável */
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+
+    /* ==========================================================================
+    ALTERAÇÕES PARA O TEMA CLARO
+    ========================================================================== */   
+    body.light-theme .card {
+        background-color: #c7b9b9; /* Fundo do card no tema claro */
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+
+    /* Força os textos a ficarem pretos/escuros quando a classe light-theme estiver ativa */
+    body.light-theme .card__title {
+        color: #0f172a !important; /* Preto/Escuro */
+    }
+
+    body.light-theme .card__description {
+        color: #334155 !important; /* Cinza escuro para contraste */
+    }
