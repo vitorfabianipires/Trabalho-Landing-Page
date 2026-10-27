@@ -82,4 +82,35 @@ function validarEmail(email) {
     return regexEmail.test(email); // Retorna true ou false
 }
 
+    //--- 6. ESCUTADOR DE EVENTO 'SUBMIT'
+formNewsletter.addEventListener('submit', function(event) {
+    // Bloqueia o envio do formulário enquanto validamos
+    event.preventDefault();
 
+    const emailValor = inputEmail.value.trim();
+
+    // CHECAGEM DE ERRO: Campo vazio ou e-mail fora do padrão
+    if (!validarEmail(emailValor)) {
+        // Aplica o feedback visual de ERRO
+        feedbackText.textContent = '❌ Por favor, digite um e-mail válido (ex: nome@dominio.com).';
+        feedbackText.style.color = '#ef4444'; // Vermelho
+        inputEmail.style.borderColor = '#ef4444';
+        inputEmail.focus(); // Coloca o cursor de volta no campo
+    } else {
+        // Aplica o feedback visual de SUCESSO
+        feedbackText.textContent = '✅ Inscrição realizada com sucesso!';
+        feedbackText.style.color = '#22c55e'; // Verde
+        inputEmail.style.borderColor = '#22c55e';
+
+        // Limpa o campo de entrada
+        inputEmail.value = '';
+
+        console.log(`[Sucesso] E-mail cadastrado: ${emailValor}`);
+
+        // Oculta a mensagem de sucesso após 4 segundos
+        setTimeout(function() {
+            feedbackText.textContent = '';
+            inputEmail.style.borderColor = ''; // Restaura a borda padrão do CSS
+        }, 4000);
+    }
+});
