@@ -1,3 +1,6 @@
+git commit -m "feat: validacao de formulario com regex e feedback visual"
+
+
 const formNewsletter = document.querySelector('.newsletter__form');
 const inputEmail = document.querySelector('.newsletter__input');
 const btnSubmit = document.querySelector('.btn--form');
