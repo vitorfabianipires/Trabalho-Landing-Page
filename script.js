@@ -6,6 +6,7 @@ const headerNav = document.querySelector('#header-nav');
 const themeToggle = document.querySelector('#theme-toggle');
 const themeIcon = document.querySelector('.theme-icon');
 
+
 // --- 1. ENVIO DO FORMULÁRIO (CORRIGIDO) ---
 if (formNewsletter && inputEmail && btnSubmit) {
     formNewsletter.addEventListener('submit', function(event) {
@@ -64,3 +65,21 @@ if (themeToggle && themeIcon) {
         }
     });
 }
+
+    //--- 4. CRIAÇÃO DINÂMICA DA MENSAGEM DE FEEDBACK ---\\
+const feedbackText = document.createElement ('small');
+feedbackText.style.display = 'block';
+feedbackText.style.marginTop = '8px';
+feedbackText.style.fontSize = '0.85rem';
+feedbackText.style.fontWeight = '600';
+
+// Insere o elemento <small> logo abaixo do input de e-mail
+inputEmail.parentNode.appendChild(feedbackText);
+
+//--- 5. FUNÇÃO QUE VALIDA O FORMULÁRIO VIA REGEX
+function validarEmail(email) {
+    const regexEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regexEmail.test(email); // Retorna true ou false
+}
+
+
