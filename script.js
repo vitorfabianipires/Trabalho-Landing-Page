@@ -83,22 +83,34 @@ if (menuToggle && headerNav) {
 }
 
 // --- 5. ALTERNAR TEMA COM PERSISTÊNCIA ---
-const savedTheme = localStorage.getItem('theme');
-if (savedTheme === 'light') {
+const temaSalvo = localStorage.getItem('temaPreferido');
+
+if (temaSalvo === 'light') {
     document.body.classList.add('light-theme');
-    if (themeIcon) themeIcon.textContent = '☀️';
+    if (themeIcon) {
+        themeIcon.textContent = '☀️';
+    }
 }
 
-if (themeToggle && themeIcon) {
+if (themeToggle) {
     themeToggle.addEventListener('click', function() {
+        // Alterna a classe 'light-theme' no <body>
         document.body.classList.toggle('light-theme');
 
+        let novoTema = 'dark';
+
+        // Verifica se a classe está presente após o toggle
         if (document.body.classList.contains('light-theme')) {
-            themeIcon.textContent = '☀️';
-            localStorage.setItem('theme', 'light'); 
+            novoTema = 'light';
+            if (themeIcon) themeIcon.textContent = '☀️';
         } else {
-            themeIcon.textContent = '🌙';
-            localStorage.setItem('theme', 'dark');  
+            if (themeIcon) themeIcon.textContent = '🌙';
         }
+
+        // Salva a preferência na memória do navegador (Front-End)
+        localStorage.setItem('temaPreferido', novoTema);
+       
+        console.log(`[LocalStorage] Preferência atualizada para: ${novoTema}`);
     });
 }
+
