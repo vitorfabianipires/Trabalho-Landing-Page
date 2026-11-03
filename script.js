@@ -67,7 +67,7 @@ if (formNewsletter && inputEmail && btnSubmit && feedbackText) {
     });
 }
 
-// --- 4. MENU MOBILE ---
+// --- 4. MENU MOBILE --
 if (menuToggle && headerNav) {
     menuToggle.addEventListener('click', function() {
         headerNav.classList.toggle('header__nav--active');
